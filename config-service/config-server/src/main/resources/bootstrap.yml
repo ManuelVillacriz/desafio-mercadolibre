@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ManuelVillacriz/ms-course-youtube-mv.git
+          searchPaths: config-data
+          username: ManuelVillacriz
+          password: Sp22051983Mv03121974*.*
+          default-label: "master"
+      enabled: true                       
+  security:
+    user:
+      name: ManuelVillacriz
+      password: Sp22051983Mv03121974*.*

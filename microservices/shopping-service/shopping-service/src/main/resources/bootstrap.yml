@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: shopping-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+      username: ManuelVillacriz
+      password: Sp22051983Mv03121974*.*
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
+management:
+ tracing:
+   sampling:
+     probability: 1.0         
